@@ -1,75 +1,105 @@
-# React + TypeScript + Vite
+# Roshni Pandey — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio built with React and TypeScript to showcase my experience, technical skills, cloud projects, and DevOps journey.
 
-Currently, two official plugins are available:
+## 🌐 Live Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Coming soon.
 
-## React Compiler
+## 👩‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I'm Roshni Pandey, a Full Stack Developer and Cloud & DevOps enthusiast passionate about building modern applications and reliable cloud infrastructure.
 
-## Expanding the ESLint configuration
+I enjoy working with AWS, Terraform, React, TypeScript and CI/CD while continuously learning and building real-world projects.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Frontend
+- React
+- TypeScript
+- JavaScript
+- Tailwind CSS
+- Vite
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Cloud & DevOps
+- AWS
+- EC2
+- S3
+- VPC
+- IAM
+- CloudWatch
+- Terraform
+- GitHub Actions
+- CI/CD
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Database & Tools
+- MySQL
+- PostgreSQL
+- Python
+- Git
+- GitHub
+- VS Code
+- REST APIs
 
-```
+## 🚀 Featured Projects
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### CloudGuardian AI
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+A production-focused cloud infrastructure project built using AWS and Terraform, exploring infrastructure as code, monitoring, automation and reliable cloud deployment practices.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+**Technologies:** AWS · Terraform · React · TypeScript · CI/CD
 
-```
+[View Project](https://github.com/roshnigit-dev/CloudGuardian-AI)
+
+### Personal Portfolio
+
+A modern responsive portfolio built to showcase my development, cloud and DevOps journey.
+
+**Technologies:** React · TypeScript · Tailwind CSS · Vite
+
+### CI/CD Pipeline
+
+An automated continuous integration and deployment workflow designed to streamline application build, testing and deployment using modern DevOps practices.
+
+**Technologies:** GitHub Actions · Git · CI/CD · AWS
+
+## 💼 Experience
+
+### Full Stack Developer — Aditva Technologies
+
+**September 2024 — May 2025**
+
+Worked on frontend and backend development, responsive interfaces, API integration, databases and modern web development tools.
+
+## 🎓 Education
+
+### Master of Computer Applications
+
+**SB Jain Institute, Nagpur**
+
+2025 — Present
+
+## 📫 Connect With Me
+
+- Email: roshnipandey8329@gmail.com
+- LinkedIn: https://www.linkedin.com/in/roshani-pandey01
+- GitHub: https://github.com/roshnigit-dev
+
+## 📄 Resume
+
+My resume is available through the portfolio website.
+
+## ⭐ Features
+
+- Responsive design
+- Light and dark mode
+- Animated sections
+- Mobile navigation
+- Project showcase
+- Resume download
+- Gmail contact integration
+- GitHub and LinkedIn integration
+
+---
+
+Built with ❤️ using React, TypeScript and Tailwind CSS.
