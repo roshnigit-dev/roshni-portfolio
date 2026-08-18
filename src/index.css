@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+/* =========================================================
+   THEME VARIABLES
+   ========================================================= */
+
+:root {
+  --bg: #020617;
+  --surface: #0f172a;
+  --surface-hover: #1e293b;
+
+  --text: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  --border: rgba(148, 163, 184, 0.18);
+
+  --accent: #22d3ee;
+  --accent-hover: #67e8f9;
+}
+
+/* =========================================================
+   LIGHT MODE
+   ========================================================= */
+
+html.light {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --surface-hover: #f1f5f9;
+
+  --text: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #475569;
+
+  --border: rgba(15, 23, 42, 0.14);
+
+  --accent: #0891b2;
+  --accent-hover: #0e7490;
+}
+
+/* =========================================================
+   BASE
+   ========================================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg);
+  color: var(--text);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   SITE BACKGROUND
+   ========================================================= */
+
+.site {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* =========================================================
+   LIGHT MODE — TEXT
+   ========================================================= */
+
+html.light .text-white {
+  color: #0f172a !important;
+}
+
+html.light .text-slate-300 {
+  color: #334155 !important;
+}
+
+html.light .text-slate-400 {
+  color: #475569 !important;
+}
+
+html.light .text-slate-500 {
+  color: #64748b !important;
+}
+
+/* =========================================================
+   LIGHT MODE — BACKGROUNDS
+   ========================================================= */
+
+html.light .bg-slate-950 {
+  background-color: #f8fafc !important;
+}
+
+html.light .bg-slate-900 {
+  background-color: #ffffff !important;
+}
+
+html.light .bg-white\/5 {
+  background-color: rgba(15, 23, 42, 0.04) !important;
+}
+
+html.light .bg-white\/\[0\.03\] {
+  background-color: rgba(15, 23, 42, 0.035) !important;
+}
+
+html.light .bg-white\/\[0\.04\] {
+  background-color: rgba(15, 23, 42, 0.04) !important;
+}
+
+/* =========================================================
+   LIGHT MODE — BORDERS
+   ========================================================= */
+
+html.light .border-white\/10 {
+  border-color: rgba(15, 23, 42, 0.12) !important;
+}
+
+html.light .border-white\/15 {
+  border-color: rgba(15, 23, 42, 0.16) !important;
+}
+
+html.light .border-white\/5 {
+  border-color: rgba(15, 23, 42, 0.08) !important;
+}
+
+/* =========================================================
+   LIGHT MODE — HOVER
+   ========================================================= */
+
+html.light .hover\:bg-white\/10:hover {
+  background-color: rgba(15, 23, 42, 0.06) !important;
+}
+
+/* =========================================================
+   LIGHT MODE — NAVBAR
+   ========================================================= */
+
+html.light nav {
+  background-color: rgba(248, 250, 252, 0.9);
+}
+
+/* =========================================================
+   LIGHT MODE — CARDS
+   ========================================================= */
+
+html.light article,
+html.light section > div > div {
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* =========================================================
+   THEME TRANSITIONS
+   ========================================================= */
+
+nav,
+section,
+article,
+footer,
+button,
+a,
+span,
+div {
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease;
+}
